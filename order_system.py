@@ -63,7 +63,7 @@ def place_order(menu):
 
         # TODO: Ask the customer if they would like to order anything else
         # TODO: Let the customer know if they should type 'n' or 'N' to quit
-        another_order = input("Would you like to order anything else? (Type 'n' or 'N' to quit): ")
+        another_order = input("Would you like to keep ordering? (N)o to quit: ")
 
         # TODO: Write a conditional statement that checks the user's input
         # TODO: The conditional statement should check for 'n' or 'N'
@@ -136,7 +136,7 @@ def update_order(order, menu_selection, menu_items):
         # TODO: When the menu selection wasn't valid:
         # TODO: Print the menu selection and 
         # TODO: Tell the customer they didn't select a menu option
-        print(f"'{menu_selection}' is not a valid menu selection. Please enter a number.")
+        print(f"'{menu_selection}' was not a menu option.")
 
     # TODO: Return the updated order
     return order
